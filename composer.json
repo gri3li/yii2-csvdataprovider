@@ -1,0 +1,25 @@
+{
+    "name": "gri3li/yii2-csvdataprovider",
+    "description": "CsvDataProvider implements a data provider based on a csv",
+    "keywords": ["yii2", "dataprovider", "csv"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mikhail Gerasimov",
+            "email": "migerasimoff@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "gri3li\\yii2csvdataprovider\\": "src" }
+    }
+}
